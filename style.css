@@ -1,0 +1,144 @@
+body{
+background-color:#f0f0f0;
+}
+
+#headingbanner{
+margin-left: auto;
+margin-right: auto;
+background: url(bannerimage.jpg) no-repeat;
+width: 800px;
+height: 147px;
+border-radius: 20px;
+}
+
+#headingbanner > h1{
+position:relative;
+left:10%;
+top:10%;
+font-family: arial;
+font-size: 20 px;
+}
+
+.contentframe{
+  position: relative;
+  padding-bottom:1px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 796px;
+  background-color:#ffffff;
+  border-radius: 20px;
+}
+
+.content{
+  margin-left:20px;
+  margin-right:20px
+}
+
+.sizebutton{
+  background-color:#FFA500;
+  height:100px;
+}
+
+
+.heading > h1{
+
+
+}
+
+
+
+.vidspan{
+  float:left;
+  padding:5px;
+}
+
+.buttonspan{
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+.imagethumb{
+  width: 520px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.imagethumb > div{
+  position: relative;
+  left: 20;
+  top: 30;
+  color: #ffffff;
+  font-family: arial;
+}
+
+.imagethumb > img {
+  position: relative;
+  left: 20; 
+  top: 20;
+}
+
+
+#rollbutt:hover
+{ 
+  background-position: 0 -120px;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+#rollbutt > span
+{
+  position: relative;
+  left: 10%;
+  top: 30%;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+
+#rollbutt
+{
+  display: block;
+  width: 215px;
+  height: 120px;
+  background: url("lbutton.gif") no-repeat;
+  font-size: 28px;
+  text-decoration: none;
+  font-family:arial;
+  color: #000000;
+  float: left;
+}
+
+#rollbutt:hover
+{ 
+  background-position: 0 -120px;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+#rollbutt > span
+{
+  position: relative;
+  left: 10%;
+  top: 30%;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
